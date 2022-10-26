@@ -1,0 +1,30 @@
+.main {
+   height: 826px;
+   padding: 20px 250px;
+   background-color: #0079BF;   
+}
+
+@media screen and (max-width: 1300px) {
+
+.main { height: 794px; padding: 90px 30px 20px; }
+}
+
+@media screen and (max-width: 1024px) {
+
+.main { height: 794px; padding: 90px 30px 20px; }   
+}
+
+@media screen and (max-width: 768px) {
+
+.main { height: 794px; padding: 90px 30px 20px; }   
+}
+
+@media screen and (max-width: 425px) {
+
+.main { height: 794px; padding: 90px 30px 20px;  }   
+}
+
+@media screen and (max-width: 375px) {
+
+.main { padding: 90px 30px 20px; height: 794px; }   
+}

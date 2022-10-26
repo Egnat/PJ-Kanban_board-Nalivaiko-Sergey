@@ -1,0 +1,98 @@
+.taskList {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   width: 280px;
+   padding: 12px;
+   border-radius: 10px;
+   background: #EBECF0;   
+}
+
+.taskList-title {
+   margin: 0;
+
+   font-family: "Roboto-Regular";
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 21px;
+}
+
+.taskList-addtask {  
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+   margin-top: 15px;
+}
+
+.taskList-addbtn.active {
+   width: 90px;
+   padding: 6px 0px;
+   border: none;
+   margin-top: 10px;
+   color: #7d95bf;
+   cursor: pointer;
+
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 21px;
+   text-align: start;    
+}
+
+.taskList-addbtn.inactive {
+   display: none;
+}
+
+.tasktable-link {
+   text-decoration: none;
+}
+
+.taskTable {
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+}
+
+.taskTable-li {
+   width: 100%;
+   padding: 7px 8px;
+   border: none;
+   border-bottom: 2px solid #0000003d;
+   border-radius: 5px;
+   margin-top: 15px;
+   margin-left: 0;
+   list-style: inside;
+   list-style-type: none;
+   background: #FFFFFF;
+
+   font-family: "Roboto-Regular"; 
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 21px;
+   text-align: start;
+   color: #000000;
+}
+
+.span:hover, .taskList-title:hover {
+   border-bottom: 1px solid #0b99d3;
+}
+
+
+@media screen and (max-width: 1024px) {
+
+.taskList { width: 100%; margin-right: 25px; }    
+}
+
+@media screen and (max-width: 768px) {
+
+.taskList { width: 100%; margin-bottom: 25px; }   
+}
+
+@media screen and (max-width: 475px) {
+
+.taskList { width: 100%; margin-bottom: 25px; }
+}
+
+@media screen and (max-width: 375px) {
+
+.taskList { width: 100%; margin-bottom: 25px; }
+}

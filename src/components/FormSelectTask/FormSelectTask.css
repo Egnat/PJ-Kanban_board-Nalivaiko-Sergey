@@ -1,0 +1,29 @@
+.taskList-selecttask {
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+   margin-top: 15px;
+}
+
+.taskList-select {
+   width: 100%;
+   padding: 7px 8px 7px 4px;
+   border: none;
+   border-radius: 5px;
+   margin-left: 0;
+   background: #FFFFFF;
+    
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 21px;
+   text-align: start;
+   color: #000000;  
+}
+
+.taskList-select:hover {
+   cursor: pointer;
+}
+
+.span:hover {
+   border-bottom: 1px solid #0b99d3;
+}

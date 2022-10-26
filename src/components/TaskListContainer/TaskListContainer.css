@@ -1,0 +1,21 @@
+.taskListContainer {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
+
+
+@media screen and (max-width: 768px) {
+
+.taskListContainer { flex-direction: column; width: 100%; }
+}
+
+@media screen and (max-width: 425px) {
+
+.taskListContainer { flex-direction: column; width: 100%; }
+}
+
+@media screen and (max-width: 375px) {
+
+.taskListContainer { flex-direction: column; width: 100%; }
+}

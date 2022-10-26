@@ -1,0 +1,62 @@
+[
+    {
+        "id": "1",
+        "title": "Задача 1",
+        "description": "Описание 1",
+        "type": 0
+    },
+    {
+        "id": "2",
+        "title": "Задача 2",
+        "description": "Описание 2",
+        "type": 0
+    },
+    {
+        "id": "3",
+        "title": "Задача 3",
+        "description": "Описание 3",
+        "type": 1
+    },
+    {
+        "id": "4",
+        "title": "Задача 4",
+        "description": "",
+        "type": 1
+    },
+    {
+        "id": "5",
+        "title": "Задача 5",
+        "description": "Описание 5",
+        "type": 1
+    },
+    {
+        "id": "6",
+        "title": "Задача 6",
+        "description": "Описание 6",
+        "type": 1
+    },
+    {
+        "id": "7",
+        "title": "Задача 7",
+        "description": "Описание 7",
+        "type": 2
+    },
+    {
+        "id": "8",
+        "title": "Задача 8",
+        "description": "Описание 8",
+        "type": 2
+    },
+    {
+        "id": "9",
+        "title": "Задача 9",
+        "description": "Описание 9",
+        "type": 3
+    },
+    {
+        "id": "10",
+        "title": "Задача 10",
+        "description": "Описание 10",
+        "type": 3
+    }
+]
